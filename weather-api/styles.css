@@ -1,0 +1,81 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(./layered-waves-haikei.svg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 2em;
+    border-radius: 30px;
+    width: 25%;
+    color: white;
+}
+
+.search {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.search-bar {
+    border: none;
+    border-radius: 29px;
+    background-color: #001220;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin-right: 10px;
+}
+
+button {
+    color: white;
+    border: none;
+    border-radius: 40px;
+    background-color: #001220;
+    padding-top: 2px;
+}
+
+button:hover {
+    background-color: lightblue;
+    transition: 5ms ease-in-out;
+}
+
+.weather {
+    background-color: #001220;
+    border: 1px solid #001220;
+    border-radius: 15px;
+    padding: 0.8em;
+    margin-top: 2em;
+}
+
+h1 {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.temp {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.description {
+    text-transform: capitalize;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.weather.loading{
+    visibility: hidden;
+}
